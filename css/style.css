@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;;
+}
+
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: #3161E0;
+}
+
+#logo {
+    position: relative;
+    left: 200px;
+    top: 18px;
+}
+
+li {
+    display: inline-block;
+}
+
+ol  {
+    text-align: center;
+}
+
+a { position: relative;
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    bottom: 14px;
+}
+
+a:hover {
+    border-top: 1px white;
+}
+
+.accedi {
+    position: relative;
+    width: 70px;
+    height: 30px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+    bottom: 30px;
+    vertical-align: middle;
+    left: 1200px;
+    bottom: 36px;
+}
+
+#immagine {
+    width: 100%;
+    height: 500px;
+}
+
+.titolo {
+    position: relative;
+    text-align: center;
+    bottom: 450px;
+    color: white;
+}
+
+.paragrafo1 {
+    position: relative;
+    text-align: center;
+    bottom: 430px;
+    color: white;
+    font-size: 18px;
+}
